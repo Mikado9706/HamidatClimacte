@@ -1,0 +1,86 @@
+<!-- Carousel -->
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper blockCaroussel">
+      <img [src]="images[0]" alt="Random first slide" class="imageCaroussel">
+    </div>
+    <div class="carousel-caption">
+      <h3>Climacte</h3>
+      <p>23 et 24 Mars 2020</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper blockCaroussel">
+      <img [src]="images[1]" alt="Random second slide" class="imageCaroussel">
+    </div>
+    <div class="carousel-caption">
+      <h3>Feux</h3>
+      <p>Depuis le 20 aout, 906 000 hectares brulés.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper blockCaroussel">
+      <img [src]="images[2]"  alt="Random third slide" class="imageCaroussel">
+    </div>
+    <div class="carousel-caption">
+      <h3>Arbres abbatus</h3>
+      <p>1320 Arbres découpés par minute</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<!-- Articles -->
+<div id="accordionContainer">
+  <ngb-accordion class="classeTest">
+    <ngb-panel>
+        <ng-template ngbPanelTitle>
+          <div>
+            <fa name="pagelines"></fa> Climacte
+            </div>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          Alors qu'une nouvelle grande marche pour le climat est programmée samedi 16 mars un peu partout en France, les étudiants du campus Mediaschool Nice ont décidé d'agir de leur côté contre le changement climatique. Les 225 étudiants de l'école ont programmé ainsi un événement de deux jours, baptisé "Climacte" afin de réfléchir ensemble à des mesures concrètes pour oeuvrer à la préservation de notre planète. Il  aura lieu lundi 23 et mardi 24 mars à Nice, au Parc Phoenix. Il s’inscrit en résonance avec le déploiement du plan climat mis en place pour les 49 communes du territoire et a reçu de ce fait le soutien de la Métropole.
+          <br/><br/>
+          Cet événement réunira tout l’écosystème du campus Mediaschool Nice : ses professionnels de la communication et du digital et ceux en devenir, ainsi que des experts engagés dans la transition éco-environnementale. afin d’échanger sur des mesures concrètes qui peuvent être adoptées par ces secteurs. Les journées seront rythmées par des conférences en matinée et workshops l’après-midi afin de trouver l’équilibre entre théorie et pratique et donner à chacun la possibilité d'apporter sa contribution au projet. La finalité est de créer une “charte de bonnes pratiques” du communicant responsable."
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+        <ng-template ngbPanelTitle>
+          <div>
+            <fa name="fire"></fa> Feu en Amazonie
+            </div>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          Les feux de forêt de 2019 en Amazonie sont une série de milliers d'incendies qui se déroulèrent principalement dans la forêt amazonienne en 2019.
+          <br/><br/>
+          La majeure partie des feux de forêt se sont produits dans la partie de la forêt située au Brésil (plus de 60 % de celle-ci se trouve à l'intérieur de son territoire), mais des pays voisins comme la Bolivie, le Pérou et le Paraguay ont également signalé de nombreux départs de feux. Les incendies ont suscité une importante réaction de la communauté scientifique et internationale en juillet et août 2019 à la suite des publications de l'Instituto Nacional de Pesquisas Espaciais (INPE) faisant état d'au moins 75 336 feux décomptés en huit mois au Brésil, statistiques basées sur des observations satellitaires.
+          <br/><br/>
+          De janvier au 23 août 2019, plus de 40 000 feux ont été décomptés dans la plus grande forêt tropicale au monde, considérée comme « essentielle pour lutter contre le réchauffement climatique ». Il s'agit du nombre le plus élevé depuis le début de la collecte des données en 2013.
+        </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+        <ng-template ngbPanelTitle>
+          <div>
+            <fa name="tree"></fa> Déforestation
+            </div>
+        </ng-template>
+        <ng-template ngbPanelContent>
+          La déforestation de la forêt amazonienne s'est grandement accélérée entre 1991 et 2004, jusqu'à atteindre un taux annuel de perte de surface forestière de 27 423 km2 en 2004. Bien que le taux de déforestation ait ralenti depuis 2004 (avec une réaccélération en 2008 et en 2013), la surface couverte par la forêt continue de décroître1.
+          <br/><br/>
+          La forêt amazonienne représente à elle seule la moitié des forêts tropicales restantes sur la Terre, et est la forêt tropicale la plus grande, et celle avec la plus grande biodiversité au monde. 60 % de la forêt est sur le territoire du Brésil, tandis que 13 % se trouve au Pérou, 10 % en Colombie, ainsi que des parties au Venezuela, en Équateur, en Bolivie, à Guyana, au Suriname et en Guyane.
+        </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright
+    <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/fr/"> Climacte - Adrar/Bernard</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
